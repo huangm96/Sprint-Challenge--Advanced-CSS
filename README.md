@@ -34,13 +34,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+We use hard coded number and absolute length unit,like px, in adaptive website.
+However, we use relative length units in fully responsive website,such as %, em and rem.
+
+
 2. Describe what it means to be mobile first vs desktop first.
+
+mobile first: Do smalles screen mode first, and then expand (min-width:500px)(min-width:800px)
+desktop first: Do largest screen mode first, and then narrow (max-width:500px)(max-width:800px)
+
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+font-size: 62.5% equals to 10px.  When we use rem units, it is easier to calculate.
+1rem =10px. 1.5rem =15px....
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Presprocessing adds some powerful tools (variable, mixin and nesting) to organize css.
+
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept is nesting. I can find contents easily in the css.
+I like every concept in preprocessing. They make the css more organized. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

@@ -1,1 +1,34 @@
 // Navigation code here
+.navigation{
+    width:100%;
+    .displayColumn();
+    padding: 10px 0 0 0;
+    background: rgba(@nav-bg, 0.9);
+    border:1px solid @nav-border;
+
+    position: fixed;
+      z-index: 999;
+      
+
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        margin: 5px 0;
+        display:flex;
+        justify-content: center;
+    }
+
+    a{
+        padding:5px 10px;
+        font-size: 1.6rem;
+        text-decoration: none;
+        color:@nav-font;
+
+        &:hover{
+            background:black;
+            color:white;
+        }
+      }
+}

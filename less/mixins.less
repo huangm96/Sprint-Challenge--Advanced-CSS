@@ -1,1 +1,34 @@
 // Mixins Here
+.displayColumn(){
+    display:flex;
+    flex-direction: column;
+}
+
+
+.custom-button(@button-bg-color,@button-text-color){
+    
+    background-color:@button-bg-color;
+    color:@button-text-color;
+    font-size:1.6rem;
+    width:30%;
+    padding:10px 0;
+    border-radius: 5px;
+    text-align: center;
+
+    &:hover{
+        background-color:@button-text-color;
+        color:@button-bg-color;
+        
+      }
+    
+}
+
+.animation-bgcolor(@color1,@color2){
+    @keyframes abgcolor{
+        50% {background-color:@color1;}
+        100% {background-color:@color2;}
+    }
+    
+    animation-name: abgcolor;
+    animation-duration:4s;
+    }
