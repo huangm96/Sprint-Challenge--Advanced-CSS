@@ -22,3 +22,13 @@
       }
     
 }
+
+.animation-bgcolor(@color1,@color2){
+    @keyframes abgcolor{
+        50% {background-color:@color1;}
+        100% {background-color:@color2;}
+    }
+    
+    animation-name: abgcolor;
+    animation-duration:4s;
+    }

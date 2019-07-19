@@ -201,6 +201,18 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.home {
+  animation-name: abgcolor;
+  animation-duration: 4s;
+}
+@keyframes abgcolor {
+  50% {
+    background-color: lightblue;
+  }
+  100% {
+    background-color: lightyellow;
+  }
+}
 .home h2 {
   padding: 15px;
 }
@@ -209,14 +221,14 @@ footer {
 }
 .home .intro {
   width: 100%;
-  padding: 0 15px;
+  padding: 89px 15px;
 }
 .home .intro img {
   width: 100%;
 }
 @media (max-width: 500px) {
   .home .intro {
-    padding: 0 0;
+    padding: 89px 0;
   }
 }
 .home .space-images {
